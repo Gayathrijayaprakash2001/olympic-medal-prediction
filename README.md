@@ -24,7 +24,7 @@ The dataset includes:
 
  ***Tech Stack***
 
-Python
+ * Python
 
 * Pandas, NumPy (data processing)
 

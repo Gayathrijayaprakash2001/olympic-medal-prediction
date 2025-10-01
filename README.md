@@ -10,27 +10,27 @@ Accurately predicting Olympic medal counts helps analyze performance trends acro
 
 The dataset includes:
 
-Team / Country
+* Team / Country
 
-Year
+* Year
 
-Number of Athletes
+* Number of Athletes
 
-Average Age
+* Average Age
 
-Previous Medals
+* Previous Medals
 
-Actual Medals
+* Actual Medals
 
  ***Tech Stack***
 
 Python
 
-Pandas, NumPy (data processing)
+* Pandas, NumPy (data processing)
 
-Matplotlib, Seaborn (visualization)
+* Seaborn (visualization)
 
-Scikit-learn (machine learning)
+* Scikit-learn (machine learning)
 
  ***Workflow***
 
@@ -52,12 +52,15 @@ Scikit-learn (machine learning)
 
 * Error analysis by country.
 
- ***Sample Results ***
-Team	Year	Previous Medals	Actual Medals	Predicted Medals
-USA	 2012	       103	          248	            285
-USA	2016         104	          264	            236
-IND	2012	        3	             6	             7
-IND	2016	        2	             2	             12
+ ***Sample Results***
+ 
+| Country | Year | Athletes | Previous Medals | Actual Medals | Predicted Medals |
+|---------|------|----------|-----------------|---------------|------------------|
+| USA     | 2012 | 530      | 103             | 248           | 285              |
+| USA     | 2016 | 554      | 104             | 264           | 236              |
+| IND     | 2012 | 83       | 3               | 6             | 7                |
+| IND     | 2016 | 117      | 2               | 2             | 12               |
+
 
 * High medal-winning countries (USA, Russia, China) → Model performs well with low percentage error.
 
